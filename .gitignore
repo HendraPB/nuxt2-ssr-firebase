@@ -12,3 +12,4 @@ public/
 .firebaserc
 firebase.json
 .firebase/
+firebase-debug.log

@@ -1,0 +1,26 @@
+{
+  "name": "nuxt2-ssr-firebase",
+  "version": "1.0.0",
+  "author": "HendraPB hendrapratama1493@gmail.com",
+  "description": "Use Firebase function as server to render Nuxt project SSR mode with various features in it. I took the Nuxt Firebase SSR template from https://github.com/atoka-tech/nuxt-firebase-ssr and Nuxt project from https://github.com/muhibbudins/nuxt-project as proof if the template doesn't only work on projects that are used but also on projects that use the nuxt feature is quite complete. In this project I will also try the template using Latest Nuxt version ie 2.3.4",
+  "repository": "https://github.com/HendraPB/nuxt2-ssr-firebase",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "nuxt",
+    "start": "nuxt start",
+    "build": "nuxt build",
+    "postbuild": "rimraf functions/ssr && mkdirp functions/ssr && cp -R .nuxt/dist functions/ssr/dist",
+    "buildwindows": "nuxt build",
+    "postbuildwindows": "rimraf functions/ssr && mkdirp functions/ssr && (robocopy .nuxt/dist functions/ssr/dist /s /e) ^& exit 0",
+    "serve": "firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-sass": "^4.11.0",
+    "nuxt": "^2.3.4",
+    "sass-loader": "^7.1.0",
+    "vue-awesome-swiper": "^3.1.3",
+    "vuex": "^3.0.1"
+  }
+}

@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+functions/node_modules/
+
+# Nuxt build
+.nuxt/
+dist/
+functions/ssr/
+public/
+
+# Firebase
+.firebaserc
+firebase.json
+.firebase/

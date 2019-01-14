@@ -1,0 +1,21 @@
+{
+  "functions": {
+    "functions": {
+      "source": "functions"
+    }
+  },
+  "hosting": {
+    "public": "src/static",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "ssr"
+      }
+    ]
+  }
+}

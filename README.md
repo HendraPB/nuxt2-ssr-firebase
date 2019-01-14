@@ -44,7 +44,7 @@ https://playground-ssr.firebaseapp.com/
 ## How to use this repo to run other nuxt projects using firebase
 Copy all folders inside your nuxt project(assets,components and etc.) except .nuxt and node-modules to src folder.
 Add your dependencies to package.json and functions/package.json.
-Change nuxt.config.js if needed.
+Change nuxt.config.js if needed but don't forget to add ```srcDir: 'src'``` in module.exports.
 You can try to run it in development mode to test your project on Localhost:3000
 ``` bash
 npm run dev

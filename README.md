@@ -50,6 +50,6 @@ npm run dev
 ```
 
 ## Credit
-https://github.com/atoka-tech/nuxt-firebase-ssr
-https://github.com/webcore-it/nuxt2-ssr-on-firebase
+https://github.com/atoka-tech/nuxt-firebase-ssr  
+https://github.com/webcore-it/nuxt2-ssr-on-firebase  
 https://github.com/muhibbudins/nuxt-project
